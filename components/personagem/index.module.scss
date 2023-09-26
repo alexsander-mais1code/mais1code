@@ -1,0 +1,38 @@
+.personagem-item {
+    display: flex;
+    padding: 5rem 2rem 0 2rem;
+
+    .personagem-conteudo {
+        width: 50%;
+        .personagem-imgs {
+            display: flex;
+
+            img {
+                width: 6rem;
+            }
+        }
+        h2 {
+            font-size: 2.5rem;
+        }
+
+        h3 {
+            font-size: 2rem;
+            color: #f9cd24;
+        }
+
+        p {
+            color: #fff;
+        }
+    }
+
+    .personagem-imagem {
+        display: flex;
+        justify-content: center;
+        width: 50%;
+
+        img {
+            height: 30rem;
+        }
+
+    }
+}

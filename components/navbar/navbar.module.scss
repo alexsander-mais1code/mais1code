@@ -1,0 +1,24 @@
+.menu-topo {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2rem;
+
+    ul {
+        list-style: none;
+        display: flex;
+        margin: 0;
+
+        li {
+            padding: 1rem;
+
+            a {
+                text-decoration: none;
+                font-size: 1.5rem;
+            }
+        }
+    }
+
+    img {
+        width: 10rem;
+    }
+}
