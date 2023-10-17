@@ -1,5 +1,46 @@
 /* CSS do componente da página Contato */
 
-.cor {
-    color: red;
+.contato {
+    .contato-header{
+        padding-top: 2rem;
+        h2 {
+            text-align: center;
+            font-size: 3rem;        
+        }
+    }
+
+    .contato-conteudo {
+        .contato-conteudo-item {
+            padding-bottom: 1rem;
+
+            input {
+                width: 100%;
+                padding: 12px 20px;
+                margin: 8px 0;
+                box-sizing: border-box;
+                font-size: 1.4rem;
+                border-radius: 5px;
+            }
+    
+            input.item-error {
+                border: 2px solid red;
+                border-radius: 4px;
+            }
+    
+            button {
+                width: 100%;
+                font-size: 1.4rem;
+                color: #fff;
+                border-radius: 5px;
+                border: none;
+                padding: 1rem 1.5rem;
+                background-color: #130d4c;
+            }
+        }
+
+        .contato-conteudo-item-invalid {
+            font-size: 0.875rem;
+        }
+    }
 }
+

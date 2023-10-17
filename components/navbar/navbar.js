@@ -5,10 +5,13 @@ export default function Navbar() {
       <nav className={`${styles['menu-topo']} container` }>
           <ul>
               <li>
-                  <a className="titulos" href="#" >Personagens</a>
+                  <a className="titulos" href="/" >Personagens</a>
               </li>
               <li>
                   <a  className="titulos" href="#">Episodios</a>
+              </li>
+              <li>
+                  <a  className="titulos" href="/contato">Contato</a>
               </li>
           </ul>
 
